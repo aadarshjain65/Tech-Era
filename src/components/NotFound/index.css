@@ -1,0 +1,32 @@
+.app-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.not-found-container {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-image {
+  width: 50%;
+}
+
+.not-found-heading {
+  font-family: 'Roboto';
+  font-size: 48px;
+  color: #475569;
+  font-weight: bold;
+}
+
+.not-found-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #64748b;
+  font-weight: 400;
+}

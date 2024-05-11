@@ -1,0 +1,39 @@
+.app-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.courses-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 85px;
+  padding-right: 85px;
+}
+
+.courses-heading {
+  font-family: 'Roboto';
+  font-size: 42px;
+  color: #1e293b;
+  font-weight: bold;
+  margin-top: 48px;
+}
+
+.courses-list-container {
+  padding-left: 0;
+  width: 100%;
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}

@@ -1,0 +1,51 @@
+.app-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.courses-item-container {
+  display: flex;
+  justify-content: center;
+  min-height: 70vh;
+  padding: 48px;
+}
+
+.course-item-card-container {
+  background-color: #ffffff;
+  border-radius: 16px;
+  display: flex;
+  margin: 48px;
+}
+
+.course-item-image {
+  width: 450px;
+}
+
+.course-item-details-section {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.course-item-name {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #1e293b;
+  font-weight: 600;
+}
+
+.course-item-description {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #475569;
+  font-weight: 400;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
